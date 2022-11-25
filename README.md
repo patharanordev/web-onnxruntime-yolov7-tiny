@@ -1,6 +1,6 @@
 # **Object detection on WebAssembly(WASB) with YOLOv7-tiny & ORT**
 
-This repo fork from [Hyuto](https://github.com/Hyuto/yolov7-onnxruntime-web), thank for the good example.
+This repo fork from [Hyuto](https://github.com/patharanordev/web-onnxruntime-yolov7-tiny), thank for the good example.
 
 I try to proofing my `.onnx` file that can use on browser or not by using ONNX runtime or ORT. **I found some limitation after I customized YOLOv7-tiny model.**
 
@@ -16,7 +16,7 @@ I try to proofing my `.onnx` file that can use on browser or not by using ONNX r
 
 ---
 
-**[Playground](https://hyuto.github.io/yolov7-onnxruntime-web/)**
+**[Playground](https://patharanordev.github.io/web-onnxruntime-yolov7-tiny/)**
 
 ---
 
@@ -36,7 +36,7 @@ Based on current situation:
 
 ```bash
 git clone https://github.com/patharanordev/web-onnxruntime-yolov7-tiny.git
-cd yolov7-onnxruntime-web
+cd web-onnxruntime-yolov7-tiny
 yarn install # Install dependencies
 ```
 

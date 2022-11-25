@@ -1,7 +1,7 @@
 {
-  "name": "yolov7-onnxruntime-web",
+  "name": "web-onnxruntime-yolov7-tiny",
   "version": "1.0.0",
-  "homepage": "https://hyuto.github.io/yolov7-onnxruntime-web/",
+  "homepage": "https://patharanordev.github.io/web-onnxruntime-yolov7-tiny/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -42,16 +42,16 @@
     ]
   },
   "author": {
-    "name": "Wahyu Setianto",
-    "url": "https://github.com/Hyuto"
+    "name": "PatharaNor",
+    "url": "https://github.com/patharanordev"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hyuto/yolov7-onnxruntime-web.git"
+    "url": "git+https://github.com/patharanordev/web-onnxruntime-yolov7-tiny.git"
   },
   "bugs": {
-    "url": "https://github.com/Hyuto/yolov7-onnxruntime-web/issues"
+    "url": "https://github.com/patharanordev/web-onnxruntime-yolov7-tiny/issues"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
