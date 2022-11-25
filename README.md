@@ -29,6 +29,7 @@ Based on current situation:
 
 - Support **OpenCV4.5.5** only.
 - Image size(dimension) for YOLOv7-tiny's ONNX requires 640x640 only. **I got many error/issue when I using 416x416.**
+- WebAssembly using CPU but WebGL for GPU.
 
 **note** : in the future, it may have more flexibility...
 
