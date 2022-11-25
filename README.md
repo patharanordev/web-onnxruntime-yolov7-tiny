@@ -2,7 +2,7 @@
 
 This repo fork from [Hyuto](https://github.com/Hyuto/yolov7-onnxruntime-web), thank for the good example.
 
-I try to proofing my `.onnx` file that can use on browser or not by using ONNX runtime or ORT. I found some limitation after I customized YOLOv7-tiny model.
+I try to proofing my `.onnx` file that can use on browser or not by using ONNX runtime or ORT. **I found some limitation after I customized YOLOv7-tiny model.**
 
 <br/>
 
@@ -25,8 +25,12 @@ Serving YOLOv7 in browser using onnxruntime-web with `wasm` backend.
 
 ## Requirement / Limitation
 
-- Support OpenCV4.5.5 only.
-- Image size(dimension) for YOLOv7-tiny's ONNX requires 640x640 only (I got many error/issue when I using 416x416).
+Based on current situation:
+
+- Support **OpenCV4.5.5** only.
+- Image size(dimension) for YOLOv7-tiny's ONNX requires 640x640 only. **I got many error/issue when I using 416x416.**
+
+**note** : in the future, it may have more flexibility...
 
 ## Setup
 
